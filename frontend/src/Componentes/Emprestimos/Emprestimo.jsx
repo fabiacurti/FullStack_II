@@ -96,7 +96,7 @@ function Emprestimo() {
                 return;
             }
             setEditingId(id);
-            setEditedName(emprestimoParaEditar.NomeLivro); 
+            setEditedName(emprestimoParaEditar.NomeLivro);
             setCodigoLivro(emprestimoParaEditar.idLivro);
             setCpfAluno(emprestimoParaEditar.idUsuario);
             setDataEmprestimo(emprestimoParaEditar.dataEmprestimo);
@@ -108,7 +108,7 @@ function Emprestimo() {
     };
     const handleDelete = async (id) => {
         try {
-            await emprestimoService.deletarEmprestimo(id); 
+            await emprestimoService.deletarEmprestimo(id);
             const updatedEmprestimos = emprestimos.filter(emprestimo => emprestimo.id !== id); // Correção: "emprestimo.codigo" para "emprestimo.id"
             setEmprestimos(updatedEmprestimos);
         } catch (error) {
@@ -116,7 +116,7 @@ function Emprestimo() {
             setMensagemErro('Erro ao excluir o empréstimo.');
         }
     };
-    
+
 
     return (
         <>
