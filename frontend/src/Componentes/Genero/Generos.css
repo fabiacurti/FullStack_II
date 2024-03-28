@@ -1,0 +1,39 @@
+.conteiner{
+    width:75%;
+    height: 620px;
+    border: solid;
+    border-color: white;
+    display: flex;
+    margin-left: 23%;
+    margin-right: 70%;
+    flex-direction: column;
+}
+.titulos{
+    width: 40%;
+    height: 100px;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 30%;
+    font-size: 2rem;
+    background-color: rgb(33, 36, 41);
+    padding: 10px;
+    border-radius: 10px;
+}
+.campos{   
+    background-color: rgb(33, 36, 41);
+            padding: 20px;
+            border-radius: 10px;
+            border: solid;
+            border-color: white;
+            width:75%;
+            height: 620px;
+            margin-left: 10%;
+}
+.titulosGenero{
+    color: white;
+}
+.campo-invalido {
+    border: 1px solid red; /* borda vermelha */
+  }
+  
+    

@@ -1,0 +1,31 @@
+.cabecalho {
+  width: 100%;
+  margin: 10% auto;
+  text-align: center;
+  margin-left: 14.5vw;
+  font-size: 2rem;
+  background: linear-gradient(rgba(8, 8, 8, 0.7), rgba(8, 8, 8, 0));
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .cabecalho {
+      font-size: 1.5rem;
+  }
+}
+
+.centralizacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+.row{
+  width: 100%;
+}
+.flex-container-cabecalho{
+  width: 100%;
+}

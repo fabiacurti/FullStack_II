@@ -1,0 +1,117 @@
+.flex-container-cabecalho {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.formulario {
+    margin: 20px auto; /* Centraliza verticalmente */
+    padding: 20px;
+    background-color: rgb(33, 36, 41);
+    border: 1px solid #ddd; /* Adapte conforme necessário */
+    border-radius: 10px;
+  }
+@media (max-width: 768px) {
+    .formulario {
+      font-size: 14px; /* Tamanho da fonte para telas menores */
+    }
+  }
+.pagina-conteudo {
+    display: flex;
+    margin-top: 60px;
+}
+
+
+.divformulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.conteudo-extra {
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    margin-left: 27.5vw;
+    margin-top: 0.50em;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    background-color: rgb(33, 36, 41);
+    backdrop-filter: blur(3px);
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+
+.form-label {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.divformulario {
+    width: 100% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formulario {
+    margin: 0 auto;; /* Centraliza verticalmente */
+    padding: 20px;
+    width: 65%;
+    margin-left: 25vw;
+
+    background-color: #fff; /* Adapte conforme necessário */
+    border: 1px solid #ddd; /* Adapte conforme necessário */
+    border-radius: 10px;
+  }
+
+.titulo {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.centralizar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#tabela {
+    width: 100%;
+    
+    max-height: 600px;
+    overflow-y: auto;
+}
+.fundo{
+    
+    background-color: rgb(33, 36, 41);
+            padding: 20px;
+            border-radius: 10px;
+            
+}
+.col-md-6{
+    width: 100%;
+}
+.g-3{
+    width: 100%;
+}
+.form-group{
+    margin-left:4vw;
+}
+.posit{
+    margin-left:7vw;
+}
+.posit1{
+    margin-left:7vw;
+}
+

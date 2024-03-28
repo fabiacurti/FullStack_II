@@ -1,0 +1,69 @@
+.tabela_Autor {
+    width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #2e2b2b;
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  
+  .table_Autor {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .janela_Autor{
+    width: 65%;
+    height: 490px;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 70%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    max-height: 600px;
+    
+  }
+
+  @media (max-width: 767px) {
+
+  
+    .tabela_Autor {
+        width: 100%;
+        height: 500px;
+    }
+    .table_Autor {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+    .janela_Autor {
+      width: 80%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 80%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    max-height: 600px;
+    
+    }
+  }
+
+
+.custom-label-height {
+  height: 38.0px; 
+
+}
